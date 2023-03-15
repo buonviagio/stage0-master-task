@@ -6,7 +6,6 @@ package com.epam.algorithms;
  * The usage of any additional packages (such as java.util.*) is forbidden.
  */
 public class ArrayTasks {
-
     /**
      * Return a String[] array that will list all the seasons of the year, starting with winter.
      */
@@ -57,9 +56,6 @@ public class ArrayTasks {
         int result = -1;
         int index = 1;
         for (int i = 0; i < arr.length; i++) {
-            if(arr[i] == 0 && number != 0){
-                index--;
-            }
             if (arr[i] == number) {
                 result = i + index;
                 break;
